@@ -1,0 +1,13 @@
+----- A simple Particle Designer for OpenFrameworks -----
+
+Based on ofxParticleEmitter [https://github.com/sroske/ofxParticleEmitter].
+
+Can be used with Particle Designer .pex files.
+http://particledesigner.71squared.com
+
+You need following addons to run this code.
+
+* ofxParticleEmitter forked repo - https://github.com/llahiru/ofxParticleEmitter
+* ofxMSAInteractiveObject
+* ofxXmlSettings
+* ofxSimpleGuiToo
