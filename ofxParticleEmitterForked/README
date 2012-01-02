@@ -1,0 +1,15 @@
+ofxParticleEmitter
+==================
+
+A port of a particle renderer that can be used in conjunction with Particle Designer (http://particledesigner.71squared.com/) and openframeworks
+
+Forked From https://github.com/sroske/ofxParticleEmitter
+
+Changes
+
+* Added Texture Handling Functions.
+* Fixed XML tag issue with particleLifeSpan tag.
+* Added sourcePositionVariance tag to loadFromXml().
+* Added radialAccelVariance tag to loadFromXml().
+* Added tangentialAccelVariance tag to loadFromXml().
+* Call exit() at the begining of loadFromXml() just to make sure the arrays are cleared before loading a new particle file at runtime.
